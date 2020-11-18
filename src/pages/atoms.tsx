@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRecoilState } from "recoil";
 
-import { counterState } from "@store/recoil/atoms";
+import { counterState } from "@store/recoil/counter";
 
 export default function Atoms() {
   const [counter, setCounter] = useRecoilState(counterState);
